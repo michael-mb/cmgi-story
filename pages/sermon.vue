@@ -1,10 +1,10 @@
+<script setup>
+const story = await useAsyncStoryblok('sermon', { version: 'draft' })
+</script>
+
 <template>
   <StoryblokComponent v-if="story" :blok="story.content" />
 </template>
-
-<script setup>
-const story = await useAsyncStoryblok('contact', { version: 'draft' })
-</script>
 
 <style scoped>
 

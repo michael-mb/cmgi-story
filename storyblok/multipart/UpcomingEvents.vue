@@ -32,7 +32,7 @@ props.blok.events.forEach( item => {
       "            <div class=\"events-inner\">\n" +
       "              <div class=\"events-item\">\n" +
       "                <div class=\"media\">\n" +
-      "                  <div class=\"event-date me-4\">"+ parseDate(item.date) + "<span class=\"event-time\">8.00 am</span>\n" +
+      "                  <div class=\"event-date me-4\">"+ parseDate(item.date) + "<span class=\"event-time\"> " + parseHour(item.date) + "</span>\n" +
       "                  </div>\n" +
       "                  <div class=\"media-body\">\n" +
       "                    <!-- Ministries Content -->\n" +
@@ -50,7 +50,7 @@ props.blok.events.forEach( item => {
 html.value +="</div>"
 
 function parseDate(dateEntry){
-  let months = [ "Jan", "Feb", "Mar", "Apr", "May", "Juni",
+  let months = [ "Jan", "Feb", "Mar", "Apr", "Mai", "Juni",
     "July", "Aug", "Sept", "Oct", "Nov", "Dec" ];
 
   let date = new Date(dateEntry);
@@ -62,6 +62,16 @@ function parseDate(dateEntry){
   return date
 }
 
+function parseHour(dateEntry){
+  let date = new Date(dateEntry);
+  let hours = date.getHours();
+  let minutes = date.getMinutes();
+  let ampm = hours >= 12 ? 'pm' : 'am';
+  hours = hours % 12;
+  hours = hours ? hours : 12;
+  minutes = minutes < 10 ? '0'+minutes : minutes;
+  return hours + ':' + minutes + ' ' + ampm;;
+}
 </script>
 
 <style scoped>

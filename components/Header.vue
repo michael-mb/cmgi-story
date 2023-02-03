@@ -72,13 +72,11 @@
                   <!--List Item-->
                   <li class="list-item">
                     <ul class="nav navbar-main menu-white">
-                      <li class="active dropdown cus-img-menu"><a href="index.html">Startseite</a>
+                      <li class="dropdown cus-img-menu"><a href="/">Startseite</a>
                       </li>
                       <li class="dropdown cus-img-menu"><a href="index.html">Aktuelles</a>
                       </li>
-                      <li class="dropdown cus-img-menu"><a href="index.html">Unsere Lokale</a>
-                      </li>
-                      <li class="dropdown dropdown-sub"><a href="sermons.html">Sermons</a>
+                      <li class="dropdown dropdown-sub"><a href="sermons.html">TEST</a>
                         <ul class="dropdown-menu">
                           <li class="dropdown">
                             <a href="sermons-grid.html">Sermons Grid</a>
@@ -100,8 +98,11 @@
                           </li>
                         </ul>
                       </li>
+                      <li class="dropdown "><a href="/sermon">Predigten</a>
+                      </li>
 
-                      <li><a href="/contact">Contact Us</a></li>
+                      <li><a href="/about">Über uns</a></li>
+                      <li><a href="/contact">Kontakt</a></li>
                     </ul>
                   </li>
                   <li class="list-item">

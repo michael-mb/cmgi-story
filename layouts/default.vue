@@ -5,11 +5,8 @@
       <Header/>
       <slot/>
     </div>
-    <!-- .page-wrapper-inner -->
   </div>
-  <!--page-wrapper-->
   <Footer/>
-  <!--Footer/-->
 </template>
 
 <script setup>

@@ -52,7 +52,7 @@
               </div>
             </div>
           </div>
-          <div class="button-section margin-top-35">
+          <div v-if="blok.button_text" class="button-section margin-top-35">
             <a class="btn btn-default" :href="blok.button_link" :title="blok.button_text">{{blok.button_text}}</a>
           </div>
         </div>

@@ -3,9 +3,5 @@
 </template>
 
 <script setup>
-const story = await useAsyncStoryblok('contact', { version: 'draft' })
+const story = await useAsyncStoryblok('about', { version: 'draft' })
 </script>
-
-<style scoped>
-
-</style>
