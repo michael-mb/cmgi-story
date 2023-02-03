@@ -16,7 +16,7 @@ export default defineNuxtConfig({
                 { rel: 'stylesheet', href: '/rs-plugin/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css' },
                 { rel: 'stylesheet', href: '/rs-plugin/css/settings.css' },
                 { rel: 'stylesheet', href: '/rs-plugin/css/main-slider/rs6.css' },
-                { rel: 'stylesheet', href: '/css/color-schemes/red.css' },
+                { rel: 'stylesheet', href: '/css/color-schemes/blue.css' },
                 { rel: 'stylesheet', href: '/css/style.css' , class: 'main-style'}
             ],
             script: [

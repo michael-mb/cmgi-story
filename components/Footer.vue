@@ -102,17 +102,11 @@
               <ul class="footer-bottom-items pull-left">
                 <li class="nav-item">
                   <div class="nav-item-inner">
-                    Copyrights  © 2022 <a href="index.html">Zegen</a>. Designed by <a href="http://zozothemes.com/">Zozothemes</a><span class="heart-color">♥</span>
+                    Copyrights  © 2023 <a href="https://michael-mb.github.io/Michael-CV/">CMGI Media</a>. Designed by <a href="https://michael-mb.github.io/Michael-CV/">Michael</a><span class="heart-color">♥</span>
                   </div>
                 </li>
               </ul>
               <ul class="footer-bottom-items footer-menu pull-right">
-                <li class="nav-item">
-                  <a href="#">Privacy</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#">Sermons</a>
-                </li>
                 <li class="nav-item">
                   <a href="#">Contact Us</a>
                 </li>

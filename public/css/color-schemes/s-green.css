@@ -1,6 +1,6 @@
 /* =============================================== */
 /* ---------------->>> COLORS STYLES <<<------------- */
-/* ================================================ */ 
+/* ================================================ */
 
 /* Zmm Wrapper */
 .close:before, .close:after {
@@ -20,8 +20,8 @@ a:hover, a:active, a:focus, .post-meta li a:hover,
 .nav.author-social>li>a:hover {
 	color: #90c963;
 }
-.post-comments span.author:before, 
-.post-comments span.date:before, 
+.post-comments span.author:before,
+.post-comments span.date:before,
 a.comment-reply-link i, .blog-link .link:hover,
 .zig-zag-col .entry-meta i {
     color: #90c963;
@@ -30,7 +30,7 @@ a.comment-reply-link i, .blog-link .link:hover,
 .bg-theme {
     background: #90c963;
 }
-.bg-semi-transparent-dark ul.nav.navbar-main > li > a:hover, 
+.bg-semi-transparent-dark ul.nav.navbar-main > li > a:hover,
 .bg-semi-transparent-dark .mega-dropdown .dropdown-menu > li > ul > li > a:hover,
 .bg-transparent.typo-white ul.nav.navbar-main > li > a:hover {
 	color: #90c963;
@@ -56,10 +56,10 @@ a.comment-reply-link i, .blog-link .link:hover,
 .logobar .header-info a:hover {
     color: #90c963;
 }
-/*Main Menu Colors*/
+/*main Menu Colors*/
 .navbar ul.nav.navbar-main > li > a:hover, .navbar ul.nav.navbar-main > li.active > a,
 ul.nav.navbar-main.theme-main-menu > li > a.active, .navbar ul.nav.navbar-main.menu-white > li.active > a, .bg-dark .dropdown-menu > li.active > a,
-.dropdown-menu > li.active > a, .navbar ul.nav.navbar-main.menu-white > li.active > a:hover, 
+.dropdown-menu > li.active > a, .navbar ul.nav.navbar-main.menu-white > li.active > a:hover,
 .header-sticky .navbar ul.nav.navbar-main.menu-white > li.active > a {
 	color: #90c963;
 }
@@ -81,12 +81,12 @@ footer.bg-overlay-dark a:hover, footer.bg-overlay-light a:hover,
 	color: #90c963;
 }
 /*Theme Colors*/
-.theme-color, 
+.theme-color,
 .typo-white .theme-color,
 .typo-dark .theme-color {
 	color: #90c963;
 }
-.themeh-color, 
+.themeh-color,
 .typo-white .themeh-color,
 .typo-dark .themeh-color {
 	color: #90c963;
@@ -96,7 +96,7 @@ footer.bg-overlay-dark a:hover, footer.bg-overlay-light a:hover,
     background: -webkit-linear-gradient(56deg, #3380de 35%, #90c963 65%);
     background: linear-gradient(56deg, #3380de 35%, #90c963 65%);
 }
-.pricing-table-wrapper.pricing-style-1:hover .pricing-table-head, 
+.pricing-table-wrapper.pricing-style-1:hover .pricing-table-head,
 .pricing-table-active.pricing-table-wrapper.pricing-style-1 .pricing-table-head {
     background: -webkit-linear-gradient(-172deg, #3380de 35%, #90c963 65%);
     background: linear-gradient(-172deg, #3380de 35%, #90c963 65%);
@@ -151,11 +151,11 @@ footer.bg-overlay-dark a:hover, footer.bg-overlay-light a:hover,
 .full-view-wrapper .close:before, .full-view-wrapper .close:after,
 .overlay-search .close:before, .overlay-search .close:after,
 .f-box-style-4 .feature-title:before, .events-title:before {
-    background: #90c963;	
+    background: #90c963;
 }
 /*Woo Commerce Colors*/
 .onsale, .cart-count {
-    background: #90c963;	
+    background: #90c963;
 }
 .product-details a:hover {
 	color: #90c963;
@@ -193,15 +193,15 @@ footer.bg-overlay-dark a:hover, footer.bg-overlay-light a:hover,
 .feature-box-wrap.f-box-style-3, .contact-form-3 .form-control:focus,
 .contact-form-3 .btn, . team-style-1 .form-control:focus,
 .contact-form-1 .btn, .contact-form-5 .form-control:focus,
-.contact-form-5 .btn, .h-btn > .btn:hover, 
+.contact-form-5 .btn, .h-btn > .btn:hover,
 .team-style-3 .team-details {
     border-color: #90c963;
 }
 .pricing-table-wrapper .btn:hover {
-	border: 2px solid #90c963;	
+	border: 2px solid #90c963;
  }
 .pricing-table-wrapper .btn:hover {
-	border: 1px solid #90c963;	
+	border: 1px solid #90c963;
  }
 .blog-single .blog-info-wrap blockquote.blockquote-2 {
      border: 5px solid #90c963;
@@ -247,18 +247,18 @@ footer.bg-overlay-dark a:hover, footer.bg-overlay-light a:hover,
 .typo-dark .owl-dot.active span,
 .typo-white .owl-dot.active span,
 .owl-dot.active span,
-.owl-carousel .owl-nav button.owl-next:hover, 
+.owl-carousel .owl-nav button.owl-next:hover,
 .owl-carousel .owl-nav button.owl-prev:hover {
     color: #90c963;
 }
 .typo-dark .owl-dot.active span,
 .typo-white .owl-dot.active span,
 .owl-dot.active span,
-.owl-carousel .owl-nav button.owl-next, 
+.owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
     color: #90c963;
 }
-.typo-white .owl-carousel .owl-nav button.owl-next span, 
+.typo-white .owl-carousel .owl-nav button.owl-next span,
 .typo-white .owl-carousel .owl-nav button.owl-prev span {
     color: #90c963;
 }
@@ -305,7 +305,7 @@ footer.bg-overlay-dark a:hover, footer.bg-overlay-light a:hover,
     color: #90c963;
 }
 /*Blog Colors*/
-.blog-style-1 .blog-inner .blog-link a.link, 
+.blog-style-1 .blog-inner .blog-link a.link,
 .blog-style-2 .blog-inner .blog-link a.link,
 .blog-style-3 .blog-inner .blog-link a.link,
 .blog-style-3 .blog-details .post-date i,
@@ -316,7 +316,7 @@ footer.bg-overlay-dark a:hover, footer.bg-overlay-light a:hover,
 }
 .blog-style-1 .blog-inner .top-meta .post-date a,
 .blog-style-2 .blog-details .post-date a,
-.post-navigation-wrapper .prev-nav-link .post-nav-text, 
+.post-navigation-wrapper .prev-nav-link .post-nav-text,
 .post-navigation-wrapper .next-nav-link .post-nav-text {
 	background: #90c963;
 }
@@ -495,7 +495,7 @@ span.v-border, .counter-value.h-border:before {
 ::selection {
 	background: #90c963;
     color: #fff;
-    text-shadow: none;                                                                  
+    text-shadow: none;
 }
 ::-moz-selection {
     background: #90c963;
@@ -519,7 +519,7 @@ span.v-border, .counter-value.h-border:before {
 	background: #90c963;
 }
 .sermon-info a, .sermon-grid-2 .sermon-inner .sermon-link > a.btn-link,
-.single-sermon .sermon-play-list li a:hover i, 
+.single-sermon .sermon-play-list li a:hover i,
 .single-sermon .sermon-tool-list li a:hover i {
     color: #90c963;
 }
