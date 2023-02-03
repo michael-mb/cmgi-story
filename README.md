@@ -1,1 +1,1 @@
-# The Storyblok Nuxt Ultimate Tutorial: Part 1
+# CMGI - WEB - STORYBLOK
