@@ -41,13 +41,13 @@ props.blok.items.forEach(item => {
       "                    <img src=\""+item.image+"\" class=\"img-fluid\" style='width: 360px; height: 300px' width=\"768\" height=\"600\" alt=\"blog-img\" />\n" +
       "                    <div class=\"top-meta\">\n" +
       "                      <ul class=\"top-meta-list\">\n" +
-      "                        <li><div class=\"post-date\"><a href=\"blog-single.html\"><i class=\"ti-calendar\"></i>"+ parseDate(item.date) +"</a></div></li>\n" +
+      "                        <li><div class=\"post-date\"><a href=\""+item.button_link+"\"><i class=\"ti-calendar\"></i>"+ parseDate(item.date) +"</a></div></li>\n" +
       "                      </ul>\n" +
       "                    </div>\n" +
       "                  </div>\n" +
       "                  <div class=\"blog-details\">\n" +
       "                    <div class=\"blog-title\">\n" +
-      "                      <h4 class=\"margin-bottom-10\"><a href=\"blog-single.html\" class=\"blog-name\">" + item.title + "</a></h4>\n" +
+      "                      <h4 class=\"margin-bottom-10\"><a href=\""+item.button_link+"\" class=\"blog-name\">" + item.title + "</a></h4>\n" +
       "                    </div>\n" +
       "                    <div class=\"post-desc mt-2\">\n" +
       "                      <div class=\"blog-link\">\n" +
