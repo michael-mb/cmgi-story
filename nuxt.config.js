@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     app: {
         head: {
             link: [
-                { rel: 'icon', type: 'image/x-icon', href: '/images/logo/fav.jpg' },
+                { rel: 'icon', type: 'image/x-icon', href: '/images/logo/fav.png' },
                 { rel: 'stylesheet', href: '/css/bootstrap.min.css' },
                 { rel: 'stylesheet', href: '/css/font-awesome.min.css' },
                 { rel: 'stylesheet', href: '/css/simple-line-icons.min.css' },
