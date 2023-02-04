@@ -37,7 +37,7 @@
             <!-- Feature Box -->
 
             <div class="col-md-6" v-for="item in blok.cases">
-              <div class="feature-box-wrap f-box-style-1 mb-md-0 mb-sm-4 relative">
+              <div class="feature-box-wrap f-box-style-1 mb-md-4 mb-sm-4 relative">
                 <div class="feature-box-details">
                   <div class="feature-icon margin-bottom-25">
                     <span class="b-radius-50 d-block" :class="item.icon"></span>

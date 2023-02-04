@@ -46,10 +46,13 @@ const content =  json.story.content
   min-height: 370px;
 }
 
-.page-title-inner{
-  position: absolute;
-  left: 50%;
-  top: 0;
-  transform: translate(-50%, 120%);
+@media only screen and (min-width: 717px) {
+  .page-title-inner {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 120%);
+  }
 }
+
 </style>
