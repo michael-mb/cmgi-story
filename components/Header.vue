@@ -104,9 +104,6 @@ headerHTML.value = "    <!--Mobile Header-->\n" +
                         globalLinkHTML +
     "                    </ul>\n" +
     "                  </li>\n" +
-    "                  <li class=\"list-item\">\n" +
-    "                    <div class=\"header-navbar-text-1\"><a href=\"/\" class=\"h-donate-btn\">Donate</a></div>\n" +
-    "                  </li>\n" +
     "                </ul>\n" +
     "                <!-- Menu -->\n" +
     "              </div>\n" +
