@@ -51,7 +51,7 @@ props.blok.items.forEach(item => {
       "                    </div>\n" +
       "                    <div class=\"post-desc mt-2\">\n" +
       "                      <div class=\"blog-link\">\n" +
-      "                        <a target=\"_blank\" href=\" "+item.button_name+"\" class=\"link font-w-500\">"+ item.button_name +"</a>\n" +
+      "                        <a target=\"_blank\" href=\" "+item.button_link+"\" class=\"link font-w-500\">"+ item.button_name +"</a>\n" +
       "                      </div>\n" +
       "                    </div>\n" +
       "                  </div>\n" +
