@@ -38,7 +38,7 @@ props.blok.items.forEach(item => {
       "                <!--Blog Inner-->\n" +
       "                <div class=\"blog-inner\">\n" +
       "                  <div class=\"blog-thumb relative\">\n" +
-      "                    <img src=\""+item.image+"\" class=\"img-fluid\" width=\"768\" height=\"600\" alt=\"blog-img\" />\n" +
+      "                    <img src=\""+item.image+"\" class=\"img-fluid\" style='width: 360px; height: 300px' width=\"768\" height=\"600\" alt=\"blog-img\" />\n" +
       "                    <div class=\"top-meta\">\n" +
       "                      <ul class=\"top-meta-list\">\n" +
       "                        <li><div class=\"post-date\"><a href=\"blog-single.html\"><i class=\"ti-calendar\"></i>"+ parseDate(item.date) +"</a></div></li>\n" +

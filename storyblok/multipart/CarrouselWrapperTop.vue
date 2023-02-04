@@ -49,7 +49,7 @@ props.blok.items.forEach( item => {
       "              <!-- Ministries Inner -->\n" +
       "              <div class=\"ministries-inner\">\n" +
       "                <div class=\"ministries-thumb\">\n" +
-      "                  <img class=\"img-fluid squared w-100\" src=\""+ item.image + "\" width=\"360\" height=\"240\" alt=\"\">\n" +
+      "                  <img class=\"img-fluid squared w-100\" style='width: 360px; height: 300px' src=\""+ item.image + "\" width=\"360\" height=\"240\" alt=\"\">\n" +
       "                </div>\n" +
       "                <!-- Ministries Content -->\n" +
       "                <div class=\"ministries-content pad-30\">\n" +

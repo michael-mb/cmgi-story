@@ -11,7 +11,7 @@
               </ul>
               <ul class="nav mobile-header-items pull-center">
                 <li>
-                  <a href="/" class="img-before"><img src="images/logo/logo-mini.png" style="z-index: 10;" class="img-fluid" width="70" height="45" alt="Logo"></a>
+                  <a href="/" class="img-before"><img src="/images/logo/logo-mini.png" style="z-index: 10;" class="img-fluid" width="70" height="45" alt="Logo"></a>
                 </li>
               </ul>
               <ul class="nav mobile-header-items pull-right">
@@ -44,9 +44,9 @@
           <ul class="nav topbar-items pull-right">
             <li class="nav-item">
               <div class="social-icons typo-white">
-                <a href="#" class="social-fb"><span class="ti-facebook"></span></a>
-                <a href="#" class="social-instagram"><span class="ti-instagram"></span></a>
-                <a href="#" class="social-youtube"><span class="ti-youtube"></span></a>
+                <a href="https://de-de.facebook.com/people/CMGI-Deutschland/100075513084542/" class="social-fb"><span class="ti-facebook"></span></a>
+                <a href="https://www.instagram.com/youthchallenge_int/" class="social-instagram"><span class="ti-instagram"></span></a>
+                <a href="https://www.youtube.com/@cmgimediagermany" class="social-youtube"><span class="ti-youtube"></span></a>
               </div>
             </li>
             <li><a href="#" class="full-view-switch text-center"><i class="ti-search typo-white"></i></a></li>
@@ -64,7 +64,7 @@
                 <!--Overlay Menu Switch-->
                 <ul class="nav navbar-items pull-left">
                   <li class="list-item">
-                    <a href="/" class="logo-general"><img src="images/logo/logo-mini.png" class="img-fluid" width="100" height="50" alt="Logo" /></a>
+                    <a href="/" class="logo-general"><img src="/images/logo/logo-mini.png" class="img-fluid" width="100" height="50" alt="Logo" /></a>
                   </li>
                 </ul>
                 <!-- Menu -->
@@ -74,27 +74,17 @@
                     <ul class="nav navbar-main menu-white">
                       <li class="dropdown cus-img-menu"><a href="/">Startseite</a>
                       </li>
-                      <li class="dropdown cus-img-menu"><a href="index.html">Aktuelles</a>
-                      </li>
-                      <li class="dropdown dropdown-sub"><a href="sermons.html">TEST</a>
+
+                      <li class="dropdown dropdown-sub"><a href="#">Aktuelles</a>
                         <ul class="dropdown-menu">
-                          <li class="dropdown">
-                            <a href="sermons-grid.html">Sermons Grid</a>
-                            <ul class="dropdown-menu">
-                              <li><a href="sermons-grid-2.html">Sermons Grid 2</a></li>
-                              <li><a href="sermons-grid-3.html">Sermons Grid 3</a></li>
-                              <li><a href="sermons-grid-4.html">Sermons Grid 4</a></li>
-                            </ul>
-                          </li>
-                          <li class="dropdown">
-                            <a href="sermons.html">Sermon List</a>
-                            <ul class="dropdown-menu">
-                              <li><a href="sermons-list-left-sidebar.html">Sermons List Left Sidebar</a></li>
-                              <li><a href="sermons-list-right-sidebar.html">Sermons List Right Sidebar</a></li>
-                            </ul>
+                          <li>
+                            <a href="/events/destiny-camp-5">Destiny Camp 5</a>
                           </li>
                           <li>
-                            <a href="sermon-details.html">Sermon Details</a>
+                            <a href="/events/auszeit-paare">Auszeit für Ehepaare</a>
+                          </li>
+                          <li>
+                            <a href="/events/auszeit-single">Auszeit für Single</a>
                           </li>
                         </ul>
                       </li>
@@ -114,9 +104,9 @@
             </div>
           </nav>
         </div>
-        <!--sticky-head-->
+
       </div>
-      <!--sticky-outer-->
+
     </div>
   </header>
 </template>
