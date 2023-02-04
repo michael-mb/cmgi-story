@@ -88,24 +88,6 @@ props.blok.contents.forEach( item => {
       "          </rs-layer>"
 
   html.value += "<rs-layer\n" +
-      "              id=\"slider-1-slide-" + index + "-layer-16\"\n" +
-      "              class=\"res-slide-btn pop rev-btn\"\n" +
-      "              data-type=\"button\"\n" +
-      "              data-color=\"rgba(255,255,255,1)\"\n" +
-      "              data-xy=\"x:c;y:m;yo:162px,130px,128px,117px;\"\n" +
-      "              data-text=\"s:16,16,14,14;l:17;fw:500;a:center;\"\n" +
-      "              data-rsp_bd=\"off\"\n" +
-      "              data-padding=\"t:15,15,10,10;r:35,35,25,25;b:15,15,10,10;l:35,35,25,25;\"\n" +
-      "              data-border=\"bor:3px,3px,3px,3px;\"\n" +
-      "              data-frame_0=\"rX:-70deg;oZ:-50;\"\n" +
-      "              data-frame_1=\"oZ:-50;e:power4.inOut;st:3160;sp:1750;\"\n" +
-      "              data-frame_999=\"o:0;st:w;sR:4640;\"\n" +
-      "              data-frame_hover=\"bgc:#000;boc:#000;bor:3px,3px,3px,3px;bos:solid;oX:50;oY:50;sp:0;\"\n" +
-      "              style=\"z-index:8;background-color:#3498db;font-family:'Poppins';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;\"\n" +
-      "          >"+ item.button_name +
-      "          </rs-layer>"
-
-  html.value += "<rs-layer\n" +
       "              id=\"slider-1-slide-" + index + "-layer-21\"\n" +
       "              data-type=\"image\"\n" +
       "              data-rsp_ch=\"on\"\n" +
