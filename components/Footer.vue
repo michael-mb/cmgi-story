@@ -14,8 +14,6 @@ const { data } = await storyblokApi.get('cdn/stories/', {
 })
 footerMenu.value = data.stories[0].content
 
-console.log("FooterMenu", footerMenu.value)
-
 let footerParam = footerMenu.value.footer_menu[0]
 let footerLinks = ""
 

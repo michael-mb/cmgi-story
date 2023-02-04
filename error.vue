@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout name="error">
+  <NuxtLayout>
     <section id="error-404" class="error-404 pad-top-90">
       <div class="container">
         <!-- Row -->
