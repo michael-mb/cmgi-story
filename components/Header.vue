@@ -66,7 +66,7 @@ headerHTML.value = "    <!--Mobile Header-->\n" +
     "            <li class=\"nav-item\">\n" +
     "              <div class=\"social-icons typo-white\">\n" +
     "                <a href=\"https://de-de.facebook.com/people/CMGI-Deutschland/100075513084542/\" class=\"social-fb\"><span class=\"ti-facebook\"></span></a>\n" +
-    "                <a href=\"https://www.instagram.com/youthchallenge_int/\" class=\"social-instagram\"><span class=\"ti-instagram\"></span></a>\n" +
+    "                <a href=\"https://www.instagram.com/cmgifrankfurt/\" class=\"social-instagram\"><span class=\"ti-instagram\"></span></a>\n" +
     "                <a href=\"https://www.youtube.com/@cmgimediagermany\" class=\"social-youtube\"><span class=\"ti-youtube\"></span></a>\n" +
     "              </div>\n" +
     "            </li>\n" +
