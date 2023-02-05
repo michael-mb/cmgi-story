@@ -9,7 +9,7 @@
                 <div class="ministries-box-style-2">
                   <div class="ministries-inner">
                     <div class="ministries-thumb">
-                      <img class="img-fluid squared w-100" :src="item.background"  width="360" height="240" alt="image">
+                      <img class="img-fluid squared w-100" :src="item.background"  style="width: 360px; height: 270px" width="360" height="240" alt="image">
                     </div>
                     <div class="ministries-icon-img-wrap">
                       <img decoding="async" :src="'images/ministries/'+item.icon" class="img-fluid ministries-icon-img" width="80" height="80" alt="icon">
