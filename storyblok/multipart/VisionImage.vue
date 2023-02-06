@@ -1,5 +1,4 @@
 <template>
-
   <section id="section-about" class="section-about pad-top-90">
     <div class="container">
       <div class="row">
@@ -11,16 +10,11 @@
                   <div class="about-img bf-pattern mb-5 mb-xl-0">
                     <img :src="blok.image" class="" alt="about-img">
                   </div>
-                  <!-- .col -->
                 </div>
               </div>
-              <!-- about details End-->
             </div>
           </div>
-          <!-- about wrap end -->
         </div>
-        <!-- .col -->
-        <!-- Col -->
         <div class="col-xl-6 px-3 ps-xl-0">
           <div class="title-wrap margin-bottom-30">
             <div class="section-title">
@@ -34,8 +28,6 @@
             </div>
           </div>
           <div class="row">
-            <!-- Feature Box -->
-
             <div class="col-md-6 mb-4" v-for="item in blok.cases">
               <div class="feature-box-wrap f-box-style-1 mb-md-0 mb-sm-4 relative">
                 <div class="feature-box-details">
@@ -56,11 +48,8 @@
             <a class="btn btn-default" :href="blok.button_link" :title="blok.button_text">{{blok.button_text}}</a>
           </div>
         </div>
-        <!-- Col -->
       </div>
-      <!-- Row -->
     </div>
-    <!-- Container -->
   </section>
 </template>
 
