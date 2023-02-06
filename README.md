@@ -2,7 +2,7 @@
 
 This is an example of a headless CMS `integration` project with the Nuxt Javascript Framework.
 
-The app is deployed on : [Youth Challenge](https://www.cmgi-online.de/)
+The app is deployed on : [CMGI-ONLINE](https://www.cmgi-online.de/)
 ## Configuration Steps
 
 1. Create new Space in Storyblok
