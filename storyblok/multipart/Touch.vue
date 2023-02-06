@@ -21,7 +21,7 @@
                 <h3 class="flip-box-title margin-bottom-30">{{blok.card_title}}</h3>
                 <div class="flip-content">
                   <p>{{blok.card_adress}}</p>
-                  <p><a :href="blok.card_number">{{blok.card_number}}</a></p>
+                  <p><a :href="'tel:'+blok.card_number">{{blok.card_number}}</a></p>
                   <p><a :href="blok.card_email">{{blok.card_email}}</a></p>
                 </div>
               </div>
@@ -29,7 +29,7 @@
                 <h3 class="flip-box-title">{{blok.card_title}}</h3>
                 <div class="flip-content">
                   <p>{{blok.card_adress}}</p>
-                  <p><a :href="blok.card_number">{{blok.card_number}}</a></p>
+                  <p><a :href="'tel:'+blok.card_number">{{blok.card_number}}</a></p>
                   <p><a :href="blok.card_email">{{blok.card_email}}</a></p>
                 </div>
               </div>
