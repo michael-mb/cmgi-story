@@ -10,8 +10,9 @@ const footerHTML = ref("")
 
 const { data } = await storyblokApi.get('cdn/stories/', {
   version: 'draft',
-  starts_with : 'configfooter'
+  starts_with : 'config/configfooter'
 })
+
 footerMenu.value = data.stories[0].content
 
 let footerParam = footerMenu.value.footer_menu[0]

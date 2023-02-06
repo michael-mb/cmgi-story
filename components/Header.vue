@@ -9,10 +9,12 @@ const storyblokApi = useStoryblokApi()
 const headerMenu = ref(null)
 const headerHTML = ref("")
 
+
 const { data } = await storyblokApi.get('cdn/stories/', {
   version: 'draft',
-  starts_with : 'configheader'
+  starts_with : 'config/configheader'
 })
+
 headerMenu.value = data.stories[0].content.header_menu
 
 let globalLinkHTML = ""
