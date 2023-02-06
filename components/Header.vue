@@ -9,7 +9,6 @@ const storyblokApi = useStoryblokApi()
 const headerMenu = ref(null)
 const headerHTML = ref("")
 
-
 const { data } = await storyblokApi.get('cdn/stories/', {
   version: 'draft',
   starts_with : 'config/configheader'
@@ -26,7 +25,6 @@ headerMenu.value.forEach(link => {
     globalLinkHTML += "<li><a href=\" "+ link.url +  "\"> " + link.linkname +"</a></li>"
   }
 })
-
 
 headerHTML.value = "    <!--Mobile Header-->\n" +
     "    <div class=\"mobile-header bg-white typo-dark\">\n" +

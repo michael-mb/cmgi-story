@@ -3,7 +3,6 @@
 </template>
 
 <script setup>
-
 const storyblokApi = useStoryblokApi()
 const footerMenu = ref(null)
 const footerHTML = ref("")

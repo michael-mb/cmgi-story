@@ -7,7 +7,7 @@
           <div class="col-md-12">
             <div class="page-title-inner">
               <div id="breadcrumb" class="breadcrumb margin-bottom-10">
-                <a href="/" class="theme-color">Home</a>
+                <a href="/" class="theme-color">Startseite</a>
                 <span class="current">{{content.title}}</span>
               </div>
               <h1 class="page-title mb-0">{{content.title}}</h1>

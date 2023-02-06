@@ -29,12 +29,6 @@
   <!-- main wrapper-->
 </template>
 
-<script>
-export default {
-  name: "SocialBar"
-}
-</script>
-
 <style scoped>
 
 </style>
