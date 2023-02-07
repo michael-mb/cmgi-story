@@ -1,15 +1,11 @@
 <template>
   <section class="events-section pad-tb-0 broken-top-50 pt-sm-5 pt-xl-0 pad-bottom-md-none">
     <div class="container">
-      <!-- Row -->
       <div class="row">
         <div v-html="html"></div>
       </div>
-      <!-- Row -->
     </div>
-    <!-- Container -->
   </section>
-
 </template>
 
 <script setup>
@@ -23,7 +19,7 @@ html.value = "<div class=\"owl-carousel events-main-wrapper events-style-1\" \n"
     "                 data-autoplaytime=\"5000\" data-smartspeed=\"1000\"\n" +
     "                 data-margin=\"30\" data-items=\"2\" data-items-tab=\"1\"\n" +
     "                 data-items-mob=\"1\">\n" +
-    "              <!--Item-->\n"
+    "              \n"
 
 
 props.blok.events.forEach( item => {
@@ -35,16 +31,19 @@ props.blok.events.forEach( item => {
       "                  <div class=\"event-date me-4\">"+ parseDate(item.date) + "<span class=\"event-time\"> " + parseHour(item.date) + "</span>\n" +
       "                  </div>\n" +
       "                  <div class=\"media-body\">\n" +
-      "                    <!-- Ministries Content -->\n" +
       "                    <div class=\"event-content\">\n" +
-      "                      <div class=\"event-title\"><h5><a href=\" " +item.link+ "\"> " + item.title + "</a></h5></div>\n" +
-      "                      <div class=\"read-more\"><a href=\" " + item.link + "\">Event Details</a></div>\n" +
-      "                    </div>\n" +
-      "                  </div>\n" +
-      "                </div>\n" +
-      "              </div>\n" +
-      "            </div>\n" +
-      "          </div>\n"
+      "                      <div class=\"event-title\"><h5><a href=\" " +item.link+ "\"> " + item.title + "</a></h5></div>\n" ;
+
+    if(item.link)
+      html.value += "<div class=\"read-more\"><a href=\" " + item.link + "\">Event Details</a></div>\n"
+
+    html.value +=
+    "                    </div>\n" +
+    "                  </div>\n" +
+    "                </div>\n" +
+    "              </div>\n" +
+    "            </div>\n" +
+    "          </div>\n"
 })
 
 html.value +="</div>"
@@ -70,7 +69,7 @@ function parseHour(dateEntry){
   hours = hours % 12;
   hours = hours ? hours : 12;
   minutes = minutes < 10 ? '0'+minutes : minutes;
-  return hours + ':' + minutes + ' ' + ampm;;
+  return hours + ':' + minutes + ' ' + ampm;
 }
 </script>
 
