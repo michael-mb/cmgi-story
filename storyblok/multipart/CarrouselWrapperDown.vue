@@ -65,7 +65,7 @@ html.value += "</div>"
 
 
 function parseDate(dateEntry){
-  let months = [ "Jan", "Feb", "Mar", "Apr", "May", "Juni",
+  let months = [ "Jan", "Feb", "Mar", "Apr", "Mai", "Juni",
     "July", "Aug", "Sept", "Oct", "Nov", "Dec" ];
 
   let date = new Date(dateEntry);
