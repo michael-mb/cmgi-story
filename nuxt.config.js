@@ -29,12 +29,14 @@ export default defineNuxtConfig({
                 {type: 'text/javascript', src: '/js/validator.min.js'},
                 {type: 'text/javascript', src: '/js/smartresize.min.js'},
                 {type: 'text/javascript', src: '/js/jquery.appear.min.js'},
-                {type: 'text/javascript', src: '/js/custom.js'},
+                {type: 'text/javascript', src: '/js/jquery.countdown.min.js'},
+                {type: 'text/javascript', src: '/js/jquery.circle.progress.min.js'},
                 {type: 'text/javascript', src: '/rs-plugin/js/jquery.themepunch.tools.min.js'},
                 {type: 'text/javascript', src: '/rs-plugin/js/jquery.themepunch.revolution.min.js'},
                 {type: 'text/javascript', src: '/rs-plugin/js/main-slider/rbtools.min.js'},
                 {type: 'text/javascript', src: '/rs-plugin/js/main-slider/rs6.min.js'},
-                {type: 'text/javascript', src: '/rs-plugin/js/main-slider/home-1.js'}
+                {type: 'text/javascript', src: '/rs-plugin/js/main-slider/home-1.js'},
+                {type: 'text/javascript', src: '/js/custom.js'}
             ]
         }
     }
