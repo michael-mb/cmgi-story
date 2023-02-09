@@ -1,7 +1,6 @@
 <template>
-  <section id="team-section" class="team-section pad-top-95 pad-bottom-90">
+  <section id="team-section" class="team-section pad-top-10 pad-bottom-60">
     <div class="container">
-      <!-- Row -->
       <div class="row">
         <div class="offset-md-2 col-md-8">
           <div class="title-wrap text-center">
@@ -12,7 +11,6 @@
             </div>
           </div>
         </div>
-        <!--Team Main Slider-->
         <div v-html="html"/>
       </div>
     </div>
