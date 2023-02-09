@@ -1,6 +1,6 @@
 <template>
 
-  <section class="blog-section pad-top-50 pad-bottom-95">
+  <section class="blog-section pad-top-10 pad-bottom-20">
     <div class="container">
       <!-- Blog Wrap -->
       <div class="row">
