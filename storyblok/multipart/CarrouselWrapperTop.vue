@@ -12,14 +12,9 @@
             </div>
           </div>
         </div>
-
         <div v-html="html"></div>
-
-        <!--Ministries Owl Slider-->
       </div>
-      <!-- Row -->
     </div>
-    <!-- Container -->
   </section>
 
 </template>
@@ -46,12 +41,10 @@ html.value =
 props.blok.items.forEach( item => {
   html.value += "<div class=\"item\">\n" +
       "            <div class=\"ministries-box-style-2\">\n" +
-      "              <!-- Ministries Inner -->\n" +
       "              <div class=\"ministries-inner\">\n" +
       "                <div class=\"ministries-thumb\">\n" +
       "                  <img class=\"img-fluid squared w-100\" style='width: 360px; height: 300px' src=\""+ item.image + "\" width=\"360\" height=\"240\" alt=\"\">\n" +
       "                </div>\n" +
-      "                <!-- Ministries Content -->\n" +
       "                <div class=\"ministries-content pad-30\">\n" +
       "                  <div class=\"ministries-title margin-bottom-15\">\n" +
       "                    <h4><a href=\""+item.button_link+"\" class=\"ministries-link\">"+item.title+"</a></h4>\n" +
@@ -64,7 +57,6 @@ props.blok.items.forEach( item => {
       "                  </div>\n" +
       "                </div>\n" +
       "              </div>\n" +
-      "              <!-- Ministries Inner Ends -->\n" +
       "            </div>\n" +
       "          </div>"
 })

@@ -18,8 +18,7 @@ html.value = "<div class=\"owl-carousel events-main-wrapper events-style-1\" \n"
     "                 data-autoplay=\"0\" data-autoplaypause=\"1\" \n" +
     "                 data-autoplaytime=\"5000\" data-smartspeed=\"1000\"\n" +
     "                 data-margin=\"30\" data-items=\"2\" data-items-tab=\"1\"\n" +
-    "                 data-items-mob=\"1\">\n" +
-    "              \n"
+    "                 data-items-mob=\"1\">\n"
 
 
 props.blok.events.forEach( item => {

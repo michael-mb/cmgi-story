@@ -2,7 +2,6 @@
 
   <section class="blog-section pad-top-10 pad-bottom-20">
     <div class="container">
-      <!-- Blog Wrap -->
       <div class="row">
         <div class="col-md-12">
           <div class="title-wrap text-center">
@@ -13,12 +12,10 @@
             </div>
           </div>
           <div class="row">
-            <!--Blog main Slider-->
             <div v-html="html"/>
           </div>
         </div>
       </div>
-      <!-- Blog Wrap -->
     </div>
   </section>
 </template>

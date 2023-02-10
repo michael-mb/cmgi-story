@@ -11,8 +11,6 @@
 
     <div class="container">
       <div class="row">
-        <!-- col -->
-
         <div style="z-index: 2" class="col-xl-4 pe-xl-4 pb-5 pb-xl-0 z">
           <div class="flip-box broken-top-115 verticalMove">
             <div class="flip-box-inner imghvr-flip-3d-horz">
@@ -36,7 +34,6 @@
             </div>
           </div>
         </div>
-        <!-- col -->
         <div style="z-index: 2" class="col-xl-8 ps-xl-4">
           <div class="section-title-wrapper">
             <div class="title-wrap mb-0">
@@ -54,7 +51,6 @@
             </div>
           </div>
         </div>
-        <!-- .col -->
       </div>
     </div>
   </section>

@@ -1,9 +1,7 @@
 <template>
   <section id="feature-section" class="feature-section padding-top-0">
     <div class="container">
-      <!-- Row -->
       <div class="row">
-        <!-- Col -->
         <div class="col-lg-12">
           <div class="title-wrap">
             <div class="section-title text-center">

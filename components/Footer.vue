@@ -22,7 +22,6 @@ footerMenu.value.header_menu.forEach( item => {
 })
 
 footerHTML.value = "<footer id=\"footer\" class=\"footer footer-1 footer-bg-img\" data-bg=\" "+ footerParam.image+" \">\n" +
-    "    <!--Footer Widgets Columns Posibilities 4-->\n" +
     "    <div class=\"footer-widgets\">\n" +
     "      <div class=\"footer-middle-wrap footer-overlay-dark\">\n" +
     "        <div class=\"color-overlay\"></div>\n" +
@@ -30,10 +29,8 @@ footerHTML.value = "<footer id=\"footer\" class=\"footer footer-1 footer-bg-img\
     "          <div class=\"row\">\n" +
     "            <div class=\"col-lg-5 widget text-widget\">\n" +
     "              <div class=\"widget-title\">\n" +
-    "                <!-- Title -->\n" +
     "                <h3 class=\"title typo-white\"> "+ footerParam.description_title+" </h3>\n" +
     "              </div>\n" +
-    "              <!-- Text -->\n" +
     "              <div class=\"widget-text margin-bottom-30\">\n" +
     "                <p> "+ footerParam.description_text +"</p>\n" +
     "              </div>\n" +
@@ -43,13 +40,10 @@ footerHTML.value = "<footer id=\"footer\" class=\"footer footer-1 footer-bg-img\
     "                <a href=\"https://www.youtube.com/@cmgimediagermany\" class=\"social-youtube\"><span class=\"ti-youtube\"></span></a>\n" +
     "              </div>\n" +
     "            </div>\n" +
-    "            <!-- Col -->\n" +
     "            <div class=\"col-lg-5 widget text-widget\">\n" +
     "              <div class=\"widget-title\">\n" +
-    "                <!-- Title -->\n" +
     "                <h3 class=\"title typo-white\">Quick Links</h3>\n" +
     "              </div>\n" +
-    "              <!-- Text -->\n" +
     "              <div class=\"menu-quick-links\">\n" +
     "                <ul class=\"menu\">\n" +
                      footerLinks +
@@ -68,7 +62,7 @@ footerHTML.value = "<footer id=\"footer\" class=\"footer footer-1 footer-bg-img\
     "              <ul class=\"footer-bottom-items pull-left\">\n" +
     "                <li class=\"nav-item\">\n" +
     "                  <div class=\"nav-item-inner\">\n" +
-    "                    Copyrights  © 2023 <a href=\"https://michael-mb.github.io/Michael-CV/\">CMGI Media</a>. Designed by <a href=\"https://michael-mb.github.io/Michael-CV/\">michael-mb</a><span class=\"heart-color\">♥</span>\n" +
+    "                    Copyrights  © 2023 <a href=\"https://michael-mb.github.io/Michael-CV/\">CMGI Media</a>. Designed with ❤️ by <a href=\"https://michael-mb.github.io/Michael-CV/\">michael-mb</a>\n" +
     "                  </div>\n" +
     "                </li>\n" +
     "              </ul>\n" +

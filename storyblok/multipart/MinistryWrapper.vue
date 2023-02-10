@@ -14,7 +14,6 @@
                     <div class="ministries-icon-img-wrap">
                       <img decoding="async" :src="'images/ministries/'+item.icon" class="img-fluid ministries-icon-img" width="80" height="80" alt="icon">
                     </div>
-
                     <div class="ministries-content pad-lr-30 pad-top-20">
                       <div class="ministries-title margin-bottom-15">
                         <h4 class="text-center"><a href="#" class="ministries-link"> {{item.title}}</a></h4>

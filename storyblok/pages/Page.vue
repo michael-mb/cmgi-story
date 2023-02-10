@@ -1,5 +1,4 @@
 <template>
-
   <div class="page-title-wrap typo-white">
     <div class="page-title-wrap-inner section-bg-img" :data-bg="blok.image">
       <span class="theme-overlay"></span>

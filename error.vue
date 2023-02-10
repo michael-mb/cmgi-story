@@ -2,9 +2,7 @@
   <NuxtLayout>
     <section id="error-404" class="error-404 pad-top-90">
       <div class="container">
-        <!-- Row -->
         <div class="row pt-4">
-          <!-- Col -->
           <div class="col-md-12 text-center">
             <div class="error-wrap">
               <div class="error-content">
@@ -20,11 +18,8 @@
               </div>
             </div>
           </div>
-          <!-- Col -->
         </div>
-        <!-- Row -->
       </div>
-      <!-- Container -->
     </section>
   </NuxtLayout>
 </template>

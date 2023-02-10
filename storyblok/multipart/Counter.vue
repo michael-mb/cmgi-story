@@ -18,9 +18,7 @@
       </svg>
     </div>
     <div class="container" style="z-index: 2; position:relative;">
-      <!-- Row -->
       <div class="row get-quote-2 mb-3 align-items-center">
-        <!-- Col -->
         <div class="col-md-4">
           <div class="title-wrap mb-0">
             <div class="section-title typo-white mb-0">
@@ -31,9 +29,7 @@
             <span class="custom-heading-title relative">{{parseDate(blok.date)}} - {{blok.description}}</span>
           </div>
         </div>
-        <!-- Col -->
         <div class="col-md-8">
-
           <div class="day-counter-wrapper pt-3 day-counter-2 day-counter-transparent text-center">
             <div class="day-counter day-counter-progress" :data-date="convertToDataDate(blok.date)" data-size="120">
               <div class="counter-elements counter-day rounded">
