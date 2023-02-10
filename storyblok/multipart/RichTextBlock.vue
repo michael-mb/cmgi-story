@@ -1,5 +1,5 @@
 <template>
-  <section id="single-event" class="single-event">
+  <section id="single-event" class="single-event pad-top-none">
     <div class="container">
       <div class="single-event-wrap">
         <h1 class="margin-bottom-15"><span class="theme-color">{{blok.title}}</span></h1>
@@ -16,5 +16,4 @@ const props = defineProps({ blok: Object });
 </script>
 
 <style scoped>
-
 </style>

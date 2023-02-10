@@ -1,5 +1,5 @@
 <template>
-  <section id="section-about" class="section-about pad-top-70">
+  <section id="section-about" class="section-about pad-top-70 pad-bottom-40">
     <div class="container">
       <div class="row">
         <div class="col-xl-6 align-self-center">
