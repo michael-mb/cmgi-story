@@ -1,5 +1,5 @@
 <template>
-  <section id="single-event" class="single-event pad-top-none">
+  <section id="single-event" class="single-event pad-top-30">
     <div class="container">
       <div class="single-event-wrap">
         <h1 class="margin-bottom-15"><span class="theme-color">{{blok.title}}</span></h1>
