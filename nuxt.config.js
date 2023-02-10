@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   ],
     app: {
         head: {
+            htmlAttrs: {
+                lang: 'de'
+            },
             link: [
                 { rel: 'icon', type: 'image/x-icon', href: '/images/logo/fav.png' },
                 { rel: 'stylesheet', href: '/css/bootstrap.min.css' },
