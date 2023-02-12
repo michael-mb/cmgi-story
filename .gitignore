@@ -9,3 +9,4 @@ localhost-key.pem
 localhost.pem
 package-lock.json
 .idea
+.env
