@@ -62,7 +62,7 @@ footerHTML.value = "<footer id=\"footer\" class=\"footer footer-1 footer-bg-img\
     "              <ul class=\"footer-bottom-items pull-left\">\n" +
     "                <li class=\"nav-item\">\n" +
     "                  <div class=\"nav-item-inner\">\n" +
-    "                    Copyrights  © 2023 <a href=\"https://michael-mb.github.io/Michael-CV/\">CMGI Media</a>. Designed with ❤️ by <a href=\"https://michael-mb.github.io/Michael-CV/\">michael-mb</a>\n" +
+    "                    Copyrights  © 2024 <a href=\"https://michael-mb.github.io/Michael-CV/\">CMGI Media</a>. Designed with ❤️ by <a href=\"https://michael-mb.github.io/Michael-CV/\">michael-mb</a>\n" +
     "                  </div>\n" +
     "                </li>\n" +
     "              </ul>\n" +
