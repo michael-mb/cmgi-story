@@ -2,6 +2,7 @@ export default defineNuxtConfig({
   modules: [
       ['@storyblok/nuxt', { accessToken: process.env.STORYBLOK_ACCESS_TOKEN}]
   ],
+    plugins: [{ src: '~/plugins/vercel.ts', mode: 'client'}],
     app: {
         head: {
             htmlAttrs: {

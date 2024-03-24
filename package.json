@@ -12,6 +12,7 @@
     "startCommand": "npm run stackblitz"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.0.1",
     "marked": "^4.1.1"
   },
   "devDependencies": {
