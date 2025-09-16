@@ -51,7 +51,7 @@ headerHTML.value = "<div class=\"mobile-header bg-white typo-dark\">\n" +
     "            <li class=\"nav-item\">\n" +
     "              <ul class=\"nav header-info\">\n" +
     "                <li>\n" +
-    "                  <div class=\"header-address typo-white\"><span class=\"ti-location-pin\"></span> Bernerstr.107, 60437 Frankfurt am Main</div>\n" +
+    "                  <div class=\"header-address typo-white\"><span class=\"ti-location-pin\"></span> Mühlgasse 6-8, 34626 Neukirchen</div>\n" +
     "                </li>\n" +
     "              </ul>\n" +
     "            </li>\n" +
